@@ -395,7 +395,7 @@ imgadm community.general.imgadm
 import_playbook ansible.builtin.import_playbook
 import_role ansible.builtin.import_role
 import_tasks ansible.builtin.import_tasks
-include module ansible.builtin.include module
+include ansible.builtin.include
 include_role ansible.builtin.include_role
 include_tasks ansible.builtin.include_tasks
 include_vars ansible.builtin.include_vars
@@ -855,7 +855,8 @@ tempfile ansible.builtin.tempfile
 template ansible.builtin.template
 terraform community.general.terraform
 timezone community.general.timezone
-twilio community.general.twilio typetalk community.general.typetalk
+twilio community.general.twilio
+typetalk community.general.typetalk
 udm_dns_record community.general.udm_dns_record
 udm_dns_zone community.general.udm_dns_zone
 udm_group community.general.udm_group
